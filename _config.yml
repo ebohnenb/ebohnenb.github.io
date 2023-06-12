@@ -7,10 +7,10 @@ first_name: Erick
 middle_name: 
 last_name: Bohnenblust
 email: ebohnenb@gmail.com
-description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. # Based on [*folio](https://github.com/bogoli/-folio) design.
-footer_text: >
-  # al-folio theme.
+description: > # the ">" symbol means to ignore newlines until "footer_text:" # Based on [*folio](https://github.com/bogoli/-folio) design.
+  A simple, whitespace theme for academics. 
+footer_text: > # al-folio theme.
+  
 
 keywords: jekyll, jekyll-theme, academic-website, portfolio-website  # add your own keywords or leave empty
 
