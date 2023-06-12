@@ -1,97 +1,78 @@
-- title: General Information
+- title: <b>General Information</b>
   type: map
   contents:
-    - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+    - name: Name
+      value: Erick F. Bohnenblust
+    - name: Email
+      value: ebohnenb@gmail.com <br> <a href="https://www.linkedin.com/in/ebohnenb/">Linkedln</a> , <a href="https://github.com/ebohnenb">Github</a>
 
-- title: Education
+- title: <b>Work Experience</b>
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Senior Revenue and Capacity Analyst
+      institution: <i>National Railroad Passenger Corporation - Amtrak. Washington, DC.</i>
+      year: Sept 2022 - Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - Revenue optimization by setting inventory allocation strategies based on market analytics, statistical and performance indicators, big-data research, demand modeling and data visualization. Thanks to teamwork, we successfully exceeded ridership and revenue goals by 30% beyond the initial plan during the current fiscal year. 
+          <br>
+          <br>
+          Individually, I was able to persuade the directors of revenue management, the approval and implementation of my strategic recommendations in the long distances’ routes that were assigned to me. Such informed decisions allowed me to successfully exceed the monthly ridership and revenue average by 42% in comparison with data from pre and post Covid pandemic age.
+    - title: Account Management Specialist
+      institution: <i>Internal Revenue Service - IRS. Denver, CO.</i>
+      year: Aug 2022 - Sept 2022
       description:
-        - Description 1.
-        - Description 2.
-
-- title: Experience
+        - I managed taxpayers’ contacts by providing general information on tax law, available resources, account inquiries, adjusting and updating tax accounts.
+        
+    - title: Graduate Research Assistant
+      institution: <i>The World Bank Group. Washington, DC.</i>
+      year: Jan 2022 - Jul 2022
+      description:
+        - <p>World Bank Research Project &#58; &#34;Improving Public Sector Productivity in Malaysia.&#34; My team and I collaborated in the literature review, collected, organized, and cleaned proprietary datasets, using Python and Stata. <br> <br> Individually, I gathered and shaped available data for modeling the impact of public sector productivity improvement in the economy, concentrating more on the effects on economic growth. Due to integrity and accuracy, my dataset was used in 45% of the total data required for the project modeling.</p> 
+        
+    - title: Assistant Research Fellow
+      institution: <i>California Polythecnic State University. San Luis Obispo, CA.</i>
+      year: Oct 2021 - Apr 2022
+      description:
+        - <p>Working Research Project &#58; &#34;Spending Response to Extreme Weather.&#34; I participated in the literature review and the preparation of a preliminary report of findings related to data analysis using the National Health and Nutrition Examination Survey NHANES databases by applying Python and R. </p>
+            
+- title: <b>Education</b>
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: MSc in Quantitative Economics
+      institution: <i>California Polytechnic State University - CalPoly. San Luis Obispo, CA.</i>
+      year: June 2022
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - <p>Relevant Coursework &#58; Mathematics for Economic Analysis, Statistics for Econometrics, Advanced Econometrics I, Advance Econometrics II, Microeconometrics, Microeconomics Analysis, Computing and Machine Learning for Causal Inference, Dynamic Stochastic Modeling, Evidence-Based Decision Analysis, Economics Research and Communication.</p>         
+
+    - title: BS in Economics
+      institution: <i>Florida International University - FIU. Miami, FL.</i>
+      year: December 2020
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+        - <p>Relevant Coursework &#58; Mathematical Economics, Statistics, Econometrics, Measurement and Data Analysis of Economic Activity, Quantitative Economics, Intermediate Microeconomics, Intermediate Macroeconomics, Financial Accounting.</p>  
+        
+- title: <b>Skills</b>
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
+    - year: 
       items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
+        - <p>Languages &#58; English, Spanish.</p> 
+        - <p>Communication skills in qualitative and quantitative data analytics.</p>
+        - <p>Programming &#58; R, Python, MATLAB, SQL, Stata, Latex, Cloud Computing, Excel, Microsoft office.</p> 
 
-- title: Academic Interests
-  type: nested_list
+- title: <b>Leadership Experience</b>
+  type: time_table
   contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+    - title: Learning Assistant, Instructional Assistant. 
+             CalPoly, San Luis Obispo, CA.
+      year: Fall 2021
+      description: Instructional Student Assistant. Survey of Economy class. I guided students on assignments through tutoring sessions. Additionally, I graded assignments, midterm, and final exams. 
+  
+    - title: Learning Assistant of Precalculus, Algebra, and Trigonometry. 
+             FIU, Miami, FL.
+      year: Fall 2020
+      description: I assisted students with in-class assignments, projects, and weekly tutoring sessions. In addition, my team and I developed a project/strategy for students’ learning improvement, which improved 50% of students’ grades.
 
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - title: Economics Undergraduate Student Club | Treasurer and Cofounder. 
+             FIU, Miami, FL.
+      year: Spring 2020
+      description: I administered the club funds and developed fundraising ideas, increasing donations by more than $25,000. I participated with fellow students in organizing academic activities/presentations and recruitment events, achieving up to 2 academic activities and presentations per week. One of the most notorious participants was the Senior Vice President and World Bank Group Chief Economist, Dr. Carmen Reinhart.
