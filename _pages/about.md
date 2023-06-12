@@ -9,7 +9,7 @@ profile:
   image: library_pic.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>Office address: </p>
+    <p>Office Address: </p>
     <p>1 Mass. Avenue, NW,</p>
     <p>Washington, DC 20001.</p>
 
