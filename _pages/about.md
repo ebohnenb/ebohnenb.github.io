@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Msc. Quantitative Economics # <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: MSc. Quantitative Economics # <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: left
