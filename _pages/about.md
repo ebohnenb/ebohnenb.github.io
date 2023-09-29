@@ -26,5 +26,3 @@ Thanks for visiting this website! The purpose of this page is to have a place wh
 [Linkedln](https://www.linkedin.com/in/ebohnenb/)
 
 [Github](https://github.com/ebohnenb)
-
-[Twitter](https://twitter.com/ebohnenb)
