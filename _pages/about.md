@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: MSc. Quantitative Economics # <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: MSc. Quantitative Economics | Casual Inference | Econometrics | Data Science # <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: left
