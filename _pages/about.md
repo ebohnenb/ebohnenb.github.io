@@ -10,7 +10,7 @@ profile:
   image_circular: false # crops the image to make it circular
   address: >
     Office address:
-    <p>1 Mass. Avenue, NW,</p>
+    <p>928 Euclid Street, NW,</p>
     <p>Washington, DC 20001.</p>
 
 news: true  # includes a list of news items
