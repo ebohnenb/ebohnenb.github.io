@@ -59,7 +59,19 @@
       institution: <i>California Polythecnic State University. San Luis Obispo, CA.</i>
       year: Sept 2021 - Apr 2022
       description:
-        - <p>Working Research Project &#58; &#34;Spending Response to Extreme Weather.&#34; I participated in the literature review and the preparation of a preliminary report of findings related to data analysis using the National Health and Nutrition Examination Survey NHANES databases by applying Python and R. </p>
+        - <p>Working Research Project &#58; &#34;Sweating the energy bill&#58 Extreme weather, poor households, and the energy spending gap..&#34; 
+          <br>
+          <br>
+        - Participated in the literature review and data analysis from the National Health and Nutrition Examination Survey (NHANES) databases by applying econometric models using Python, R and SQL. </p>
+
+    - title: Instructional Assistant
+      institution: <i>Florida International University. Miami, FL.</i>
+      year: Jun 2020 - Dec 2020
+      description:
+        - Assisted students with in-class activities and tutoring sessions of Precalculus, Algebra, and Trigonometry. 
+          <br>
+          <br>
+        - Collaborated on grading assignments, projects, quizzes, and supplement classes in the absence of the lecturer.
             
 - title: <b>Education</b>
   type: time_table
