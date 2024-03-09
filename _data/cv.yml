@@ -38,13 +38,20 @@
         
     - title: Graduate Research Assistant
       institution: <i>The World Bank Group. Washington, DC.</i>
-      year: Jan 2022 - Jul 2022
+      year: Jan 2022 - Jun 2022
       description:
-        - <p>World Bank Research Project &#58; &#34;Improving Public Sector Productivity in Malaysia.&#34; My team and I collaborated in the literature review, collected, organized, and cleaned proprietary datasets, using Python and Stata. <br> <br> Individually, I gathered and shaped available data for modeling the impact of public sector productivity improvement in the economy, concentrating more on the effects on economic growth. Due to integrity and accuracy, my dataset was used in 45% of the total data required for the project modeling.</p> 
-        
+        - <p>World Bank Research Project &#58; &#34;Improving Public Sector Productivity in Malaysia.&#34; 
+        - Collaborated in the literature review, collected, organized, and cleaned proprietary datasets, using Python and Stata.
+          <br>
+          <br>
+        - I applied statistical/econometrics (causal inference) techniques and other methodologies to analyze data and backing research’s conclusions about the relationship between public sector productivity and economic growth.
+          <br>
+          <br>
+        - Gathered and shaped available data for modeling the impact of a public sector productivity improvement in the economy, concentrating more on the direct effects in economic growth. 
+
     - title: Assistant Research Fellow
       institution: <i>California Polythecnic State University. San Luis Obispo, CA.</i>
-      year: Oct 2021 - Apr 2022
+      year: Sept 2021 - Apr 2022
       description:
         - <p>Working Research Project &#58; &#34;Spending Response to Extreme Weather.&#34; I participated in the literature review and the preparation of a preliminary report of findings related to data analysis using the National Health and Nutrition Examination Survey NHANES databases by applying Python and R. </p>
             
