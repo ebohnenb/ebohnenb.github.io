@@ -76,41 +76,27 @@
 - title: <b>Education</b>
   type: time_table
   contents:
-    - title: MSc in Quantitative Economics
+    - title: Master of Science in Quantitative Economics
       institution: <i>California Polytechnic State University - CalPoly. San Luis Obispo, CA.</i>
       year: June 2022
       description:
-        - <p>Relevant Coursework &#58; Mathematics for Economic Analysis, Statistics for Econometrics, Advanced Econometrics I, Advance Econometrics II, Microeconometrics, Microeconomics Analysis, Computing and Machine Learning for Causal Inference, Dynamic Stochastic Modeling, Evidence-Based Decision Analysis, Economics Research and Communication.</p>         
+        - <p><i>Relevant Coursework &#58;</i> Mathematics for Economic Analysis, Statistics for Econometrics, Advanced Econometrics I,
+Advance Econometrics II, Microeconometrics, Microeconomics Analysis, Computing and Machine Learning for
+Causal Inference, Dynamic Stochastic Modeling, Evidence-Based Decision Analysis, Economics Research and
+Communication..</p>         
 
-    - title: BS in Economics
+    - title: Bachelor of Science in Economics
       institution: <i>Florida International University - FIU. Miami, FL.</i>
       year: December 2020
       description:
-        - <p>Relevant Coursework &#58; Mathematical Economics, Statistics, Econometrics, Measurement and Data Analysis of Economic Activity, Quantitative Economics, Intermediate Microeconomics, Intermediate Macroeconomics, Financial Accounting.</p>  
+        - <p><i>Relevant Coursework &#58;</i> Mathematical Economics, Statistics, Econometrics, Measurement and Data Analysis of Economic Activity, Quantitative Economics, Intermediate Microeconomics, Intermediate Macroeconomics, Financial Accounting, and an additional sequence of courses from the department of Mathematics and Statistics.</p>  
         
 - title: <b>Skills</b>
   type: time_table
   contents:
     - year: 
       items: 
-        - <p>Languages &#58; English, Spanish.</p> 
+        - <p><i>Languages &#58;</i> English, Spanish.</p> 
         - <p>Communication skills in qualitative and quantitative data analytics.</p>
         - <p>Programming &#58; R, Python, MATLAB, SQL, Stata, Latex, Cloud Computing, Excel, Microsoft office.</p> 
 
-- title: <b>Leadership Experience</b>
-  type: time_table
-  contents:
-    - title: Learning Assistant, Instructional Assistant. 
-             CalPoly, San Luis Obispo, CA.
-      year: Fall 2021
-      description: Instructional Student Assistant. Survey of Economy class. I guided students on assignments through tutoring sessions. Additionally, I graded assignments, midterm, and final exams. 
-  
-    - title: Learning Assistant of Precalculus, Algebra, and Trigonometry. 
-             FIU, Miami, FL.
-      year: Fall 2020
-      description: I assisted students with in-class assignments, projects, and weekly tutoring sessions. In addition, my team and I developed a project/strategy for students’ learning improvement, which improved 50% of students’ grades.
-
-    - title: Economics Undergraduate Student Club | Treasurer and Cofounder. 
-             FIU, Miami, FL.
-      year: Spring 2020
-      description: I administered the club funds and developed fundraising ideas, increasing donations by more than $25,000. I participated with fellow students in organizing academic activities/presentations and recruitment events, achieving up to 2 academic activities and presentations per week. One of the most notorious participants was the Senior Vice President and World Bank Group Chief Economist, Dr. Carmen Reinhart.
