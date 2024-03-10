@@ -141,7 +141,7 @@
           <article>
             <p>Project 1 : Rock - Scissor - Paper game. To play with your computer!!</p>
 
-<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code>import random
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>import random
 
 def rps(y):
     game_dict= {1: 'rocks', 2:'paper', 3:'scissors'}
@@ -179,7 +179,7 @@ def main():
     try:
         y= int(input(' Choose (1) for rocks, (2) for paper, or (3) for scissors: '))
 
-        if y <span class="nt">&lt;</span><span class="err">1</span> <span class="na">or</span> <span class="na">y</span> <span class="nt">&gt;</span> 3:
+        if y &lt;1 or y &gt; 3:
             raise ValueError
 
     except ValueError:
@@ -198,6 +198,7 @@ if __name__== '__main__':
 
 import rps
 rps.main()
+
 </code></pre></div></div>
 
 <hr>
