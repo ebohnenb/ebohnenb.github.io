@@ -7,7 +7,7 @@ importance: 3
 category: fun
 ---
 
-Project 1 : Rock - Scissor - Paper
+Project 1 : Rock-Scissor-Paper game. Your computer and you!!
 
    {% raw %}
 ```
