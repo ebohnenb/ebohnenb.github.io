@@ -7,9 +7,10 @@ importance: 3
 category: fun
 ---
 
-Project 1 : Rock-Scissor-Paper game. Your computer and you!!
+Project 1 : Rock - Scissor - Paper game. To play with your computer!!
 
    {% raw %}
+   
 ```
 import random
 
