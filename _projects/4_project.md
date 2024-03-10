@@ -65,7 +65,7 @@ To make images responsive, add `img-fluid` class to each; for rounded corners an
 Here's the code for the last row of images above:
 
 {% raw %}
-```
+```html
 import random
 
 def rps(y):
