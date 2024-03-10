@@ -11,7 +11,7 @@ Project 1 : Rock - Scissor - Paper game. To play with your computer!!
 
    {% raw %}
    
-```
+```html
 import random
 
 def rps(y):
