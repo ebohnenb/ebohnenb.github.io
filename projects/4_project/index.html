@@ -285,62 +285,65 @@ Just wrap your images with <code class="language-plaintext highlighter-rouge">&l
 To make images responsive, add <code class="language-plaintext highlighter-rouge">img-fluid</code> class to each; for rounded corners and shadows use <code class="language-plaintext highlighter-rouge">rounded</code> and <code class="language-plaintext highlighter-rouge">z-depth-1</code> classes.
 Here’s the code for the last row of images above:</p>
 
-<p>&lt;import random</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>import random
 
-<p>&lt;def rps(y):
-&lt;   game_dict= {1: ‘rocks’, 2:’paper’, 3:’scissors’}
-&lt;   x = random.choice([1, 2, 3])
-&lt;   outcome = y - x</p>
+def rps(y):
+    game_dict= {1: 'rocks', 2:'paper', 3:'scissors'}
+    x = random.choice([1, 2, 3])
+    outcome = y - x
 
-<p>&lt;   feedback = f’You played {game_dict.get(y)}, the computer played {game_dict.get(x)}.’</p>
+    feedback = f'You played {game_dict.get(y)}, the computer played {game_dict.get(x)}.'
 
-<p>&lt;   if outcome in [-2, 1]:
-&lt;       print(f’{feedback}\nYou win!’)
-&lt;    elif outcome in [-1, 2]:
-&lt;       print(f’{feedback}\nComputer win!.’)
-&lt;   else:
-&lt;      print(f’{feedback}\nIt's a tie!’)</p>
+    if outcome in [-2, 1]:
+        print(f'{feedback}\nYou win!')
+    elif outcome in [-1, 2]:
+        print(f'{feedback}\nComputer win!.')
+    else:
+        print(f'{feedback}\nIt\'s a tie!')
 
-<p>&lt;def play_again():
-&lt;   try:
-&lt;        again = input(‘Would you like to play again (y)es or (n)o? ‘)</p>
+def play_again():
+    try:
+        again = input('Would you like to play again (y)es or (n)o? ')
 
-<p>&lt;       if again not in [‘y’, ‘n’]:
-&lt;           raise ValueError</p>
+        if again not in ['y', 'n']:
+            raise ValueError
+    
+    except Exception:
+        print('\nError: wrong input!')
+        play_again()
 
-<p>&lt;   except Exception:
-&lt;       print(‘\nError: wrong input!’)
-&lt;       play_again()</p>
+    else:
+        if again == 'y':
+            main ()
+        else:
+            print('Good bye!')
 
-<p>&lt;   else:
-&lt;       if again == ‘y’:
-&lt;           main ()
-&lt;       else:
-&lt;           print(‘Good bye!’)</p>
 
-<p>&lt;def main():
-&lt;   try:
-&lt;       y= int(input(‘ Choose (1) for rocks, (2) for paper, or (3) for scissors: ‘))</p>
+def main():
+    try:
+        y= int(input(' Choose (1) for rocks, (2) for paper, or (3) for scissors: '))
 
-<p>&lt;       if y &lt;1 or y &gt; 3:
-&lt;           raise ValueError</p>
+        if y &lt;1 or y &gt; 3:
+            raise ValueError
 
-<p>&lt;   except ValueError:
-&lt;       print(‘\nERROR: wrong input!!! Try again.’)
-&lt;       main()</p>
+    except ValueError:
+        print('\nERROR: wrong input!!! Try again.')
+        main()
 
-<p>&lt;   else:
-&lt;       rps(y)</p>
+    else:
+        rps(y)
 
-<p>&lt;   finally:
-&lt;       play_again()</p>
+    finally:
+        play_again()
 
-<p>&lt;if <strong>name</strong>== ‘<strong>main</strong>’:
-&lt;   pass</p>
 
-<p>&lt;import rps</p>
+if __name__== '__main__':
+    pass
 
-<p>&lt;rps.main()</p>
+import rps
+
+rps.main()
+</code></pre></div></div>
 
 
           </article>
