@@ -285,7 +285,7 @@ Just wrap your images with <code class="language-plaintext highlighter-rouge">&l
 To make images responsive, add <code class="language-plaintext highlighter-rouge">img-fluid</code> class to each; for rounded corners and shadows use <code class="language-plaintext highlighter-rouge">rounded</code> and <code class="language-plaintext highlighter-rouge">z-depth-1</code> classes.
 Here’s the code for the last row of images above:</p>
 
-<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code>import random
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>import random
 
 def rps(y):
     game_dict= {1: 'rocks', 2:'paper', 3:'scissors'}
@@ -323,7 +323,7 @@ def main():
     try:
         y= int(input(' Choose (1) for rocks, (2) for paper, or (3) for scissors: '))
 
-        if y <span class="nt">&lt;</span><span class="err">1</span> <span class="na">or</span> <span class="na">y</span> <span class="nt">&gt;</span> 3:
+        if y &lt;1 or y &gt; 3:
             raise ValueError
 
     except ValueError:
