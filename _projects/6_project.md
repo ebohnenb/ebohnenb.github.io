@@ -1,6 +1,6 @@
 ---
 layout: page
-title: project 6
+title: template 6
 description: a project with no image
 img: assets/img/plant_wall.jpg
 importance: 4
