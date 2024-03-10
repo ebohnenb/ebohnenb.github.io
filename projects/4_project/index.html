@@ -10,7 +10,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Rock Scissor Paper | Erick  Bohnenblust</title>
+    <title>Simple Python projects | Erick  Bohnenblust</title>
     <meta name="author" content="Erick  Bohnenblust">
     <meta name="description" content="another without an image">
     <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website">
@@ -134,7 +134,7 @@
         <div class="post">
 
           <header class="post-header">
-            <h1 class="post-title">Rock Scissor Paper</h1>
+            <h1 class="post-title">Simple Python projects</h1>
             <p class="post-description">another without an image</p>
           </header>
 
@@ -285,65 +285,62 @@ Just wrap your images with <code class="language-plaintext highlighter-rouge">&l
 To make images responsive, add <code class="language-plaintext highlighter-rouge">img-fluid</code> class to each; for rounded corners and shadows use <code class="language-plaintext highlighter-rouge">rounded</code> and <code class="language-plaintext highlighter-rouge">z-depth-1</code> classes.
 Here’s the code for the last row of images above:</p>
 
-<p>import random</p>
+<p>&lt;import random</p>
 
-<p>def rps(y):
-    game_dict= {1: ‘rocks’, 2:’paper’, 3:’scissors’}
-    x = random.choice([1, 2, 3])
-    outcome = y - x</p>
+<p>&lt;def rps(y):
+&lt;   game_dict= {1: ‘rocks’, 2:’paper’, 3:’scissors’}
+&lt;   x = random.choice([1, 2, 3])
+&lt;   outcome = y - x</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>feedback = f'You played {game_dict.get(y)}, the computer played {game_dict.get(x)}.'
+<p>&lt;   feedback = f’You played {game_dict.get(y)}, the computer played {game_dict.get(x)}.’</p>
 
-if outcome in [-2, 1]:
-    print(f'{feedback}\nYou win!')
-elif outcome in [-1, 2]:
-    print(f'{feedback}\nComputer win!.')
-else:
-    print(f'{feedback}\nIt\'s a tie!')
-</code></pre></div></div>
+<p>&lt;   if outcome in [-2, 1]:
+&lt;       print(f’{feedback}\nYou win!’)
+&lt;    elif outcome in [-1, 2]:
+&lt;       print(f’{feedback}\nComputer win!.’)
+&lt;   else:
+&lt;      print(f’{feedback}\nIt's a tie!’)</p>
 
-<p>def play_again():
-    try:
-        again = input(‘Would you like to play again (y)es or (n)o? ‘)</p>
+<p>&lt;def play_again():
+&lt;   try:
+&lt;        again = input(‘Would you like to play again (y)es or (n)o? ‘)</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    if again not in ['y', 'n']:
-        raise ValueError
+<p>&lt;       if again not in [‘y’, ‘n’]:
+&lt;           raise ValueError</p>
 
-except Exception:
-    print('\nError: wrong input!')
-    play_again()
+<p>&lt;   except Exception:
+&lt;       print(‘\nError: wrong input!’)
+&lt;       play_again()</p>
 
-else:
-    if again == 'y':
-        main ()
-    else:
-        print('Good bye!')
-</code></pre></div></div>
+<p>&lt;   else:
+&lt;       if again == ‘y’:
+&lt;           main ()
+&lt;       else:
+&lt;           print(‘Good bye!’)</p>
 
-<p>def main():
-    try:
-        y= int(input(‘ Choose (1) for rocks, (2) for paper, or (3) for scissors: ‘))</p>
+<p>&lt;def main():
+&lt;   try:
+&lt;       y= int(input(‘ Choose (1) for rocks, (2) for paper, or (3) for scissors: ‘))</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    if y &lt;1 or y &gt; 3:
-        raise ValueError
+<p>&lt;       if y &lt;1 or y &gt; 3:
+&lt;           raise ValueError</p>
 
-except ValueError:
-    print('\nERROR: wrong input!!! Try again.')
-    main()
+<p>&lt;   except ValueError:
+&lt;       print(‘\nERROR: wrong input!!! Try again.’)
+&lt;       main()</p>
 
-else:
-    rps(y)
+<p>&lt;   else:
+&lt;       rps(y)</p>
 
-finally:
-    play_again()
-</code></pre></div></div>
+<p>&lt;   finally:
+&lt;       play_again()</p>
 
-<p>if <strong>name</strong>== ‘<strong>main</strong>’:
-    pass</p>
+<p>&lt;if <strong>name</strong>== ‘<strong>main</strong>’:
+&lt;   pass</p>
 
-<p>import rps</p>
+<p>&lt;import rps</p>
 
-<p>rps.main()</p>
+<p>&lt;rps.main()</p>
 
 
           </article>
