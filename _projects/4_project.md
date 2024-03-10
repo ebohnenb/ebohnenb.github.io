@@ -2,7 +2,7 @@
 layout: page
 title: Rock Scissor Paper
 description: another without an image
-img:
+img: assets/img/turkeys.jpg
 importance: 3
 category: fun
 ---
