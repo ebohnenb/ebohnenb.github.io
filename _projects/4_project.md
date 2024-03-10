@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Rock Scissor Paper
+title: Simple Python projects
 description: another without an image
 img: assets/img/turkeys.jpg
 importance: 3
@@ -66,64 +66,64 @@ Here's the code for the last row of images above:
 
 {% raw %}
 
-import random
+<import random
 
-def rps(y):
-    game_dict= {1: 'rocks', 2:'paper', 3:'scissors'}
-    x = random.choice([1, 2, 3])
-    outcome = y - x
+<def rps(y):
+<   game_dict= {1: 'rocks', 2:'paper', 3:'scissors'}
+<   x = random.choice([1, 2, 3])
+<   outcome = y - x
 
-    feedback = f'You played {game_dict.get(y)}, the computer played {game_dict.get(x)}.'
+<   feedback = f'You played {game_dict.get(y)}, the computer played {game_dict.get(x)}.'
 
-    if outcome in [-2, 1]:
-        print(f'{feedback}\nYou win!')
-    elif outcome in [-1, 2]:
-        print(f'{feedback}\nComputer win!.')
-    else:
-        print(f'{feedback}\nIt\'s a tie!')
+<   if outcome in [-2, 1]:
+<       print(f'{feedback}\nYou win!')
+<    elif outcome in [-1, 2]:
+<       print(f'{feedback}\nComputer win!.')
+<   else:
+<      print(f'{feedback}\nIt\'s a tie!')
 
-def play_again():
-    try:
-        again = input('Would you like to play again (y)es or (n)o? ')
+<def play_again():
+<   try:
+<        again = input('Would you like to play again (y)es or (n)o? ')
 
-        if again not in ['y', 'n']:
-            raise ValueError
+<       if again not in ['y', 'n']:
+<           raise ValueError
     
-    except Exception:
-        print('\nError: wrong input!')
-        play_again()
+<   except Exception:
+<       print('\nError: wrong input!')
+<       play_again()
 
-    else:
-        if again == 'y':
-            main ()
-        else:
-            print('Good bye!')
-
-
-def main():
-    try:
-        y= int(input(' Choose (1) for rocks, (2) for paper, or (3) for scissors: '))
-
-        if y <1 or y > 3:
-            raise ValueError
-
-    except ValueError:
-        print('\nERROR: wrong input!!! Try again.')
-        main()
-
-    else:
-        rps(y)
-
-    finally:
-        play_again()
+<   else:
+<       if again == 'y':
+<           main ()
+<       else:
+<           print('Good bye!')
 
 
-if __name__== '__main__':
-    pass
+<def main():
+<   try:
+<       y= int(input(' Choose (1) for rocks, (2) for paper, or (3) for scissors: '))
+
+<       if y <1 or y > 3:
+<           raise ValueError
+
+<   except ValueError:
+<       print('\nERROR: wrong input!!! Try again.')
+<       main()
+
+<   else:
+<       rps(y)
+
+<   finally:
+<       play_again()
 
 
-import rps
+<if __name__== '__main__':
+<   pass
 
-rps.main()
+
+<import rps
+
+<rps.main()
 
 {% endraw %}
