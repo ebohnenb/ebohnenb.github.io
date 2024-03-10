@@ -1,6 +1,6 @@
 ---
 layout: page
-title: project 4
+title: Rock-Scissors-Paper
 description: another without an image
 img:
 importance: 3
